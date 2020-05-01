@@ -1,3 +1,7 @@
+# Created by https://www.gitignore.io/api/python
+# Edit at https://www.gitignore.io/?templates=python
+
+### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -97,6 +101,8 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
+# celery beat schedule file
+celerybeat-schedule
 
 # SageMath parsed files
 *.sage.py
@@ -127,3 +133,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# End of https://www.gitignore.io/api/python
